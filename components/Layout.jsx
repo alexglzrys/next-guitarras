@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from './Header'
 
 /**
  * Layout
@@ -14,6 +15,7 @@ const Layout = ({children, title = '', description = ''}) => {
             <title>{`GuitarLA - ${title}`}</title>
             <meta name="description" content={description} />
         </Head>
+        <Header />
         {children}
     </div>
   )
