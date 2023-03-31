@@ -1,0 +1,24 @@
+.navegacion {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+@media (min-width: 768px) {
+    .navegacion {
+        margin-top: 0;
+    }
+}
+/* El componente Link de NextJS al final se convierte en una etiqueta <a> */
+.navegacion a {
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.4rem;
+    transition: background-color .3s;
+    padding: .5rem;
+}
+.navegacion a:hover {
+    background-color: var(--primary);
+}
