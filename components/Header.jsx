@@ -14,7 +14,7 @@ const Header = () => {
       <div className={`contenedor ${styles.barra}`}>
         <Image
           src="img/logo.svg"
-          height={100}
+          height={93}
           width={300}
           alt="Logotipo principal"
         />
